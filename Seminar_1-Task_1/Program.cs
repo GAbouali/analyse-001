@@ -10,7 +10,7 @@ string? inputnum = Console.ReadLine();
 //get sure that data isnt empty.
 if(inputnum!=null)
 {
-    //anlise and classify the interd number.
+    //analyse and classify the interd number.
     int number = int.Parse(inputnum);
 
 //get the square of this number.
@@ -19,3 +19,6 @@ if(inputnum!=null)
 Console.WriteLine(result);
 
 }
+
+
+
