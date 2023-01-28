@@ -20,6 +20,7 @@ if(input1!=null && input2!=null )
     }
     else
     {
+
          Console.WriteLine("first num isnt the square of first number, ");
 
     }
