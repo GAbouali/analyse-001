@@ -40,7 +40,7 @@
 // printdata("length: ", len);
 
 //---------------------------------------------------------------------------
-//OPTION 2
+//OPTION 2 with *
 
 Console.WriteLine("enter: x1,x2,y1,y2,z1,z2");
 string? cord = Console.ReadLine();

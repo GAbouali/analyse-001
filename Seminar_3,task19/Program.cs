@@ -41,24 +41,24 @@
 //-----------------------------------------------------------------
 
 //option 2 with *
-//method to read the inputs.
+//Method of reading user data
 string ReadData(string line)
 {
-    // Выводим сообщение
+    // Output• message
     Console.Write(line);
-    // Считываем строку
+    // Reading the line
     string inputLine = Console.ReadLine() ?? "";
-    // Возвращаем значение
+    // Returning the value
     return inputLine;
 }
 
-// Метод, принимает строку, выводит в консоль
+// Method to accepts a string, outputs to the console
 void PrintResult(string line)
 {
     Console.WriteLine(line);
 }
 
-
+//Method that returns a dictionary of four-digit palindromes
 Dictionary<int, int> FillPalindroms()
 {
     Dictionary<int, int> palindroms = new Dictionary<int, int>();
@@ -73,7 +73,7 @@ Dictionary<int, int> FillPalindroms()
     }
     return palindroms;
 }
-
+//method to test the inputs, if its palindrome or not?
 bool CheckIfPalindrom(int inputNumber, Dictionary<int, int> palindroms)
 {
     // Делаем из исходного пятизначного числа четырёхзначное, убирая третью цифру
