@@ -1,0 +1,36 @@
+int C = Convert.ToInt32(Console.Readlie());     //convert the inputs from user to number>> #057 محول المدخلات الى رقم
+
+string[array.length-1]="01";                    //get the last element of the array>> #057 الوصول الى اخر عنصر في المصفوفة
+
+String strng_name = new String(char_array);   //convert char array V to string V .#057, 12:03.
+
+String strname="sameh"   Char[] chaerarray;    chararray=strname.tochararray();   //convert string V to char array V.#057 14:44
+                                                                             تحويل متغير سترنج الى متغير مصفوفة
+
+
+
+
+Console.Writeline("enter the array count: ");    //اطلب عدد عناصر المصفوفه من المستخدم
+Int arraylen = Int.Parse(Console.Readline());    //اقرا المدخلات وحولها الى رقم 
+Int[] arr = New.Int[arraylen];                   // انشاء مصفوفة رقمية باسم ارر 
+
+for (int i=0;i<arraylen;i++)                    // انشاء لووب لطلب باقي عناصر المصفوفة
+
+{
+ console.writeline("input element "+(x+1)+": ";  //request array elements one by one.
+ arr=Console.readline();                         // place the inputs into array.
+ //int sum=0;                                   //suggestions to solve 27
+ //sum+=arr[i];                                 //suggestions to solve 27                 
+}
+//return sum;                                   //suggestions to solve 27     
+for (int i=0;i<arraylen;i++)
+{
+ console.writeline(arr[i]);
+
+}
+
+
+
+
+
+
