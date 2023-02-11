@@ -20,7 +20,9 @@ for (int i=0;i<arraylen;i++)                    // انشاء لووب لطلب 
  console.writeline("input element "+(x+1)+": ";  //request array elements one by one.
  arr=Console.readline();                         // place the inputs into array.
  //int sum=0;                                   //suggestions to solve 27
- //sum+=arr[i];                                 //suggestions to solve 27                 
+ //sum+=arr[i];                                 //suggestions to solve 27    
+ //sum + = int.parse(array[i]); c#
+ 
 }
 //return sum;                                   //suggestions to solve 27     
 for (int i=0;i<arraylen;i++)
