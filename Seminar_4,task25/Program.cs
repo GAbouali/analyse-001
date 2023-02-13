@@ -3,6 +3,7 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 // * Написать калькулятор с операциями +, -, /, * и возведение в степень
+//-----------------------------------------------------------------------------
 
 //universal method to read the inputs, transform it from text to numbers,
 int ReadData(string msg)
