@@ -6,13 +6,25 @@ String strng_name = new String(char_array);   //convert char array V to string V
 
 String strname="sameh"   Char[] chaerarray;    chararray=strname.tochararray();   //convert string V to char array V.#057 14:44
                                                                              تحويل متغير سترنج الى متغير مصفوفة
+//                                  ****** seminar 6 ******
+
+
+// Задача №39 
+// كود تبديل اخر عنصر باول عنصر بالمصفوفة, في نفس المصفوفة
+// if(int i=0;i<main_arr.length;i++)
+//    (main_arr[i] , main_arr[main_arr.length-1-i] - (main_arr[main_arr.length-1-i] , main_arr[i])
+// example: [1,2,3,4] >>> [4,3,2,1]
 
 // Задача №40
 // يمكن بناء مثلث في حال كان مجموع كل ضلعين اكبر من الضلع الثالث 
 // if(a+b>c&&a+c>b&&b+c>a);
 
 // Задача №42
+// ملأ سترنج بارقام من نوع انت
+// string result = string.empty;
+// result = result + covert.tostring(num%2);
 
+// Задача №44
 
 
 
