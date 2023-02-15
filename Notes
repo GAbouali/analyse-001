@@ -7,6 +7,23 @@ String strng_name = new String(char_array);   //convert char array V to string V
 String strname="sameh"   Char[] chaerarray;    chararray=strname.tochararray();   //convert string V to char array V.#057 14:44
                                                                              تحويل متغير سترنج الى متغير مصفوفة
 
+// Задача №40
+// يمكن بناء مثلث في حال كان مجموع كل ضلعين اكبر من الضلع الثالث 
+// if(a+b>c&&a+c>b&&b+c>a);
+
+// Задача №42
+
+
+
+
+
+
+
+
+
+
+
+
 
 // lesson 1
 Console.Write Command
