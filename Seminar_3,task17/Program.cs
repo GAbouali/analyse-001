@@ -22,6 +22,7 @@
 
 int coordx = ReadData("input X: ");
 int coordy = ReadData("input Y: ");
+PrintQuterTest(coordx,coordy);
 //Метод читает данные от пользователя
 int ReadData(string msg)
 {
@@ -30,11 +31,11 @@ return int.Parse(Console.ReadLine() ?? "0");
 
 }
 
-   // Метод определяет четверть по координатам точки
-void PrintQuterTest()
+// Метод определяет четверть по координатам точки
+void PrintQuterTest(int x,int y)
 {
-if (coordx > 0 && coordy > 0) Console.WriteLine("Точка в четверти 1");
-if (coordx > 0 && coordy < 0) Console.WriteLine("Точка в четверти 2");
-if (coordx < 0 && coordy < 0) Console.WriteLine("Точка в четверти 3");
-if (coordx < 0 && coordy > 0) Console.WriteLine("Точка в четверти 4");
+if (x > 0 && y > 0) Console.WriteLine("Точка в четверти 1");
+if (x > 0 && y < 0) Console.WriteLine("Точка в четверти 2");
+if (x < 0 && y < 0) Console.WriteLine("Точка в четверти 3");
+if (x < 0 && y > 0) Console.WriteLine("Точка в четверти 4");
 } 

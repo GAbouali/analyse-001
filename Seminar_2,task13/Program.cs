@@ -9,10 +9,7 @@
 // if(num>=100 && num<1000)
 // {
 //     int res1 = num%10;
-    
 //     Console.WriteLine(res1);
-
-
 // }
 // else if(num<100)
 // {
@@ -28,10 +25,20 @@
 
 
 //option2.
+Console.WriteLine("input number, ");
+
+// creat variable [array] = read inputs.transform it to array.
 char[] digit = Console.ReadLine().ToCharArray();
-if(
+// check length of array.
+if (digit.Length >= 3)
 {
+    // print index 2 fro the array.
     Console.WriteLine(digit[2]);
 
 }
+else
+{
+    Console.WriteLine("третей цифры нет");
+}
+
 
