@@ -8,7 +8,7 @@
 // 17 -> такого числа в массиве нет
 // * Заполнить числами Фиббоначи и выделить цветом найденную цифру
 //--------------------------------------------------
-//                                               "Code Driver"
+//                                               " Code Driver "
 int r = ReadData("input rows count: ");
 int c = ReadData("input colums count: ");
 int s=ReadData("input a number to search: ");
@@ -18,7 +18,7 @@ SearchResult(testranarr);
 
 
 
-//                                                  "methods"
+//                                                  " methods "
 
 int ReadData(string msg)                   //reading the inputs.   
 {
@@ -90,7 +90,8 @@ void SearchResult(int[,] arr)          // searching for the user inputs.
 
 
 
-
+//                                                    " ???????? "
+// i could not solve the * task!
 
 
 

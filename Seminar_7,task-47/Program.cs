@@ -6,7 +6,7 @@
 // 8 7,8 -7,1 9
 // * При выводе матрицы показывать каждую цифру разного цвета(цветов всего 16)
 //-----------------------------------------------------------------------------------
-//                                         "Code Driver"
+//                                                " Code Driver "
 
 ConsoleColor[] col = new ConsoleColor[]{ConsoleColor.Black,ConsoleColor.Blue,ConsoleColor.Cyan,
                                         ConsoleColor.DarkBlue,ConsoleColor.DarkCyan,ConsoleColor.DarkGray,
@@ -20,7 +20,7 @@ double[,] TestRanArr=Creat2DRanaArray(r,c);
 Console.WriteLine("-the original matrix: "); 
 Print2DArray(TestRanArr);
 
-//                                                  "methods"
+//                                                  " methods "
 
 int ReadData(string msg)                       //reading the inputs.   
 {
@@ -67,3 +67,10 @@ void Print2DArray(double[,] arr)               // printa 2D rray.
         i++;
     }
 }
+
+
+
+
+
+//                                                      " ??? "
+// how can i get the result in this form 6,1 not 6.165444128912456?

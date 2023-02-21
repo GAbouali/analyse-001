@@ -9,7 +9,7 @@
 // цветом.
 //------------------------------------------------------------------------
 
-//                                               "Code Driver"
+//                                               " Code Driver "
 int r = ReadData("input rows count: ");
 int c = ReadData("input colums count: ");
 int[,] testranarr = Creat2DRanArray(r, c);
@@ -23,7 +23,7 @@ printdata("the arithmetic mean of Principal diagonal = ",MainDiagonalmean);
 double SecDiagonalMean=MeanOfSecondDiag(testranarr);
 printdata("the arithmetic mean of Secondary diagonal = ",SecDiagonalMean);
 
-//                                                  "methods"
+//                                                  " methods "
 
 int ReadData(string msg)                       //reading the inputs.     
 {
